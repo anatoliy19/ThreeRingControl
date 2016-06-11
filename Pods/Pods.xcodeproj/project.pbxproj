@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04268670EFCEE218DFF9F43C0EDE154E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		09A451411E805065EFAB4E617C5744B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		2F0092233951B06F6FE895FB17084ED9 /* Pods-ThreeRingControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98959D891C01D2F305CCC4988A5F88E3 /* Pods-ThreeRingControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3226303138D66D415DB00A7C38EBE898 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0703852894838EC4C86EC457D13949D2 /* Utilities.swift */; };
+		34158B0BEE6225DEB3CFC356CEEA60DC /* winning.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5887461172A64EE6A83C0EC21D4CD84 /* winning.mp3 */; };
+		3FCCD1C330ABBBD261CECB9ECED210A8 /* ThreeRingControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 65501A8B217CF1A44D9EECD990A10440 /* ThreeRingControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5ECFB1C2F9CC07870F470B3F3969D7E7 /* Pods-ThreeRingControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F836B85D90CD37245B454194F3591D90 /* Pods-ThreeRingControl-dummy.m */; };
+		8416380BB9DF3B0FEAA40F9B959D0E70 /* RingTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B07D907515232EC5260DBFA6FCC1DF /* RingTip.swift */; };
+		8BEB8C5D8CD10D1E6F258042EEBAB592 /* ThreeRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3AA7BD0B4A6758D7C6C4856FDD4525 /* ThreeRingView.swift */; };
+		97C30BD5A3D88A1D51C259FBA88A5702 /* ThreeRingControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8021561C3021474735E6FC2BAF736571 /* ThreeRingControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B01896EA22BC30F1CE74E34A59EEDF6B /* Fanfare.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA311A56DBD4879F8AF1AF46088E41B /* Fanfare.swift */; };
+		B035C0FA1C533A8113F7BC791D92F4DD /* Pods-ThreeRingControlTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E1283BE7E8443508A836C14FD7537C4 /* Pods-ThreeRingControlTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3EBA9ED0B0C959DE1AA6D09F3F9DE6C /* CircularGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43B1050FB6F48376FCB9B6D376AC756 /* CircularGradient.swift */; };
+		C59BB5CF9576FFCAAD2314B0FB63FEE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		C84B60D36678DEFCC10DAC2D5229D589 /* ThreeRingControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB86702E8D2F0F23FE59F2CB3DFAEDB /* ThreeRingControl-dummy.m */; };
+		EA7E43A686D286296855CC2087C8E71D /* Pods-ThreeRingControlTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EADE4F6D521D2A50D72C2AD21FF21FD /* Pods-ThreeRingControlTests-dummy.m */; };
+		EBCC3E02CC85F87EBEA0112647689CC8 /* coin07.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E7C134A5C1852E796A5EB79432CDBC80 /* coin07.mp3 */; };
+		FC7074F3305E76C7E59FF7DBC9B6C811 /* RingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C8E5284C24C129DF525BD514FBA82B /* RingLayer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		787E52675FBB8D1C28D903C470EE4D76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEB23278FB765E4707D8BA96A7A25446;
+			remoteInfo = ThreeRingControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0703852894838EC4C86EC457D13949D2 /* Utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		129340C6168C2A22A08082A36F9B6373 /* Pods-ThreeRingControlTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThreeRingControlTests.debug.xcconfig"; sourceTree = "<group>"; };
+		13B2E2F990970E9F5D60E626996DDDC1 /* Pods_ThreeRingControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThreeRingControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A3AA7BD0B4A6758D7C6C4856FDD4525 /* ThreeRingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ThreeRingView.swift; sourceTree = "<group>"; };
+		1E1283BE7E8443508A836C14FD7537C4 /* Pods-ThreeRingControlTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ThreeRingControlTests-umbrella.h"; sourceTree = "<group>"; };
+		1EA8BFA9AE45290017C5DEBEC309FE74 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F9912117B8524673F95041CD580C3AD /* Pods-ThreeRingControlTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThreeRingControlTests.release.xcconfig"; sourceTree = "<group>"; };
+		37B07D907515232EC5260DBFA6FCC1DF /* RingTip.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RingTip.swift; sourceTree = "<group>"; };
+		427C2597240B3B6762ADC9B988485ABF /* Pods-ThreeRingControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThreeRingControl.release.xcconfig"; sourceTree = "<group>"; };
+		4C2312E1F33F0B452D6CFD75173147E3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EADE4F6D521D2A50D72C2AD21FF21FD /* Pods-ThreeRingControlTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ThreeRingControlTests-dummy.m"; sourceTree = "<group>"; };
+		5546E731C245947B274538A2171A6D42 /* Pods-ThreeRingControlTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ThreeRingControlTests-resources.sh"; sourceTree = "<group>"; };
+		5A98D099201B30E6131C69C817A9DDBD /* Pods-ThreeRingControlTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ThreeRingControlTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5B814FC9564BDBECD4EA45054DF4CE15 /* Pods-ThreeRingControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ThreeRingControl.modulemap"; sourceTree = "<group>"; };
+		5BB0A0C244C47E9ED5D36A3DBD08CFBB /* ThreeRingControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ThreeRingControl.xcconfig; sourceTree = "<group>"; };
+		65501A8B217CF1A44D9EECD990A10440 /* ThreeRingControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ThreeRingControl.h; sourceTree = "<group>"; };
+		6A0A66C53739AD5DD97E06AA7265FEF5 /* Pods-ThreeRingControlTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ThreeRingControlTests.modulemap"; sourceTree = "<group>"; };
+		8021561C3021474735E6FC2BAF736571 /* ThreeRingControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ThreeRingControl-umbrella.h"; sourceTree = "<group>"; };
+		81BDB9E9ECFD890D8EFB3A97579E5AD2 /* Pods-ThreeRingControl-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ThreeRingControl-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98959D891C01D2F305CCC4988A5F88E3 /* Pods-ThreeRingControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ThreeRingControl-umbrella.h"; sourceTree = "<group>"; };
+		9A36BC872ABE4A74A6AF7DADA9D38BAA /* Pods-ThreeRingControl-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ThreeRingControl-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9DDAEA01AEFE51A4E870716A0C54D236 /* Pods-ThreeRingControl-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ThreeRingControl-frameworks.sh"; sourceTree = "<group>"; };
+		A5887461172A64EE6A83C0EC21D4CD84 /* winning.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = winning.mp3; sourceTree = "<group>"; };
+		B122CC4A2F204AB540DD79F0139E0DAD /* Pods-ThreeRingControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThreeRingControl.debug.xcconfig"; sourceTree = "<group>"; };
+		B18F5706D0C74E63726BC03B6EA26D28 /* ThreeRingControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ThreeRingControl.modulemap; sourceTree = "<group>"; };
+		B43B1050FB6F48376FCB9B6D376AC756 /* CircularGradient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CircularGradient.swift; sourceTree = "<group>"; };
+		BFA311A56DBD4879F8AF1AF46088E41B /* Fanfare.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Fanfare.swift; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D7EB2DB6A33CE394913BBBE3ABC414C7 /* Pods-ThreeRingControlTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ThreeRingControlTests-frameworks.sh"; sourceTree = "<group>"; };
+		D8D31E40868265B825301C4ED30B5BC1 /* Pods-ThreeRingControl-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ThreeRingControl-resources.sh"; sourceTree = "<group>"; };
+		DCE25E002F8E2E2CB6B90B2B4434D7F5 /* Pods_ThreeRingControlTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThreeRingControlTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7C134A5C1852E796A5EB79432CDBC80 /* coin07.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = coin07.mp3; sourceTree = "<group>"; };
+		EAB86702E8D2F0F23FE59F2CB3DFAEDB /* ThreeRingControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ThreeRingControl-dummy.m"; sourceTree = "<group>"; };
+		F58347F01D6989DAB57C0AD064B6A84C /* Pods-ThreeRingControlTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ThreeRingControlTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F7700CE8BD3EF540132CE501DE31A176 /* ThreeRingControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ThreeRingControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F836B85D90CD37245B454194F3591D90 /* Pods-ThreeRingControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ThreeRingControl-dummy.m"; sourceTree = "<group>"; };
+		F8C8E5284C24C129DF525BD514FBA82B /* RingLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RingLayer.swift; sourceTree = "<group>"; };
+		F9CF2F5DE1E706AE5566CEA927CC2A25 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA5C7F1D323BE299FD595DC2999E14BF /* ThreeRingControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ThreeRingControl-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04410D6C2FC8086A3FBC20118CEEB1A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C59BB5CF9576FFCAAD2314B0FB63FEE4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B003699EB5474B75B2170E94262A23D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04268670EFCEE218DFF9F43C0EDE154E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42A771BBBAC439357E42460D818F71A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09A451411E805065EFAB4E617C5744B4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		044E8BED594EBE10B4183C80290360A4 /* Pods-ThreeRingControl */ = {
+			isa = PBXGroup;
+			children = (
+				1EA8BFA9AE45290017C5DEBEC309FE74 /* Info.plist */,
+				5B814FC9564BDBECD4EA45054DF4CE15 /* Pods-ThreeRingControl.modulemap */,
+				9A36BC872ABE4A74A6AF7DADA9D38BAA /* Pods-ThreeRingControl-acknowledgements.markdown */,
+				81BDB9E9ECFD890D8EFB3A97579E5AD2 /* Pods-ThreeRingControl-acknowledgements.plist */,
+				F836B85D90CD37245B454194F3591D90 /* Pods-ThreeRingControl-dummy.m */,
+				9DDAEA01AEFE51A4E870716A0C54D236 /* Pods-ThreeRingControl-frameworks.sh */,
+				D8D31E40868265B825301C4ED30B5BC1 /* Pods-ThreeRingControl-resources.sh */,
+				98959D891C01D2F305CCC4988A5F88E3 /* Pods-ThreeRingControl-umbrella.h */,
+				B122CC4A2F204AB540DD79F0139E0DAD /* Pods-ThreeRingControl.debug.xcconfig */,
+				427C2597240B3B6762ADC9B988485ABF /* Pods-ThreeRingControl.release.xcconfig */,
+			);
+			name = "Pods-ThreeRingControl";
+			path = "Target Support Files/Pods-ThreeRingControl";
+			sourceTree = "<group>";
+		};
+		1FA991041B1194519A4430242E4847E0 /* ThreeRingControl */ = {
+			isa = PBXGroup;
+			children = (
+				B43B1050FB6F48376FCB9B6D376AC756 /* CircularGradient.swift */,
+				BFA311A56DBD4879F8AF1AF46088E41B /* Fanfare.swift */,
+				F8C8E5284C24C129DF525BD514FBA82B /* RingLayer.swift */,
+				37B07D907515232EC5260DBFA6FCC1DF /* RingTip.swift */,
+				65501A8B217CF1A44D9EECD990A10440 /* ThreeRingControl.h */,
+				1A3AA7BD0B4A6758D7C6C4856FDD4525 /* ThreeRingView.swift */,
+				0703852894838EC4C86EC457D13949D2 /* Utilities.swift */,
+			);
+			path = ThreeRingControl;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		51CB1D414842D1876FAD9488F03899D6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9CBCAB2CC28369A3C2CD5CDEF9086468 /* ThreeRingControl */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		54B5FA3BE7F7928A3B9E9C4A4162FABD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				044E8BED594EBE10B4183C80290360A4 /* Pods-ThreeRingControl */,
+				9B9A78BA75C191658FC22CB204DCBABA /* Pods-ThreeRingControlTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		605D0069897E559B3D328C7524FFB154 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C2312E1F33F0B452D6CFD75173147E3 /* Info.plist */,
+				B18F5706D0C74E63726BC03B6EA26D28 /* ThreeRingControl.modulemap */,
+				5BB0A0C244C47E9ED5D36A3DBD08CFBB /* ThreeRingControl.xcconfig */,
+				EAB86702E8D2F0F23FE59F2CB3DFAEDB /* ThreeRingControl-dummy.m */,
+				FA5C7F1D323BE299FD595DC2999E14BF /* ThreeRingControl-prefix.pch */,
+				8021561C3021474735E6FC2BAF736571 /* ThreeRingControl-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/ThreeRingControl";
+			sourceTree = "<group>";
+		};
+		777159BCE7FD5C8855EFA68392DA1BED /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF1EBCFEE235B71ABCD42A2799BBCDFC /* ThreeRingControl */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				777159BCE7FD5C8855EFA68392DA1BED /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				FC1F9B70A18BF37A0CC9DFD97AE66EF2 /* Products */,
+				54B5FA3BE7F7928A3B9E9C4A4162FABD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9B9A78BA75C191658FC22CB204DCBABA /* Pods-ThreeRingControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9CF2F5DE1E706AE5566CEA927CC2A25 /* Info.plist */,
+				6A0A66C53739AD5DD97E06AA7265FEF5 /* Pods-ThreeRingControlTests.modulemap */,
+				5A98D099201B30E6131C69C817A9DDBD /* Pods-ThreeRingControlTests-acknowledgements.markdown */,
+				F58347F01D6989DAB57C0AD064B6A84C /* Pods-ThreeRingControlTests-acknowledgements.plist */,
+				4EADE4F6D521D2A50D72C2AD21FF21FD /* Pods-ThreeRingControlTests-dummy.m */,
+				D7EB2DB6A33CE394913BBBE3ABC414C7 /* Pods-ThreeRingControlTests-frameworks.sh */,
+				5546E731C245947B274538A2171A6D42 /* Pods-ThreeRingControlTests-resources.sh */,
+				1E1283BE7E8443508A836C14FD7537C4 /* Pods-ThreeRingControlTests-umbrella.h */,
+				129340C6168C2A22A08082A36F9B6373 /* Pods-ThreeRingControlTests.debug.xcconfig */,
+				2F9912117B8524673F95041CD580C3AD /* Pods-ThreeRingControlTests.release.xcconfig */,
+			);
+			name = "Pods-ThreeRingControlTests";
+			path = "Target Support Files/Pods-ThreeRingControlTests";
+			sourceTree = "<group>";
+		};
+		9CBCAB2CC28369A3C2CD5CDEF9086468 /* ThreeRingControl */ = {
+			isa = PBXGroup;
+			children = (
+				E7C134A5C1852E796A5EB79432CDBC80 /* coin07.mp3 */,
+				A5887461172A64EE6A83C0EC21D4CD84 /* winning.mp3 */,
+			);
+			path = ThreeRingControl;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF1EBCFEE235B71ABCD42A2799BBCDFC /* ThreeRingControl */ = {
+			isa = PBXGroup;
+			children = (
+				51CB1D414842D1876FAD9488F03899D6 /* Resources */,
+				605D0069897E559B3D328C7524FFB154 /* Support Files */,
+				1FA991041B1194519A4430242E4847E0 /* ThreeRingControl */,
+			);
+			name = ThreeRingControl;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		FC1F9B70A18BF37A0CC9DFD97AE66EF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B2E2F990970E9F5D60E626996DDDC1 /* Pods_ThreeRingControl.framework */,
+				DCE25E002F8E2E2CB6B90B2B4434D7F5 /* Pods_ThreeRingControlTests.framework */,
+				F7700CE8BD3EF540132CE501DE31A176 /* ThreeRingControl.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C02CBFCF280BB7F677B415E7E994A22C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97C30BD5A3D88A1D51C259FBA88A5702 /* ThreeRingControl-umbrella.h in Headers */,
+				3FCCD1C330ABBBD261CECB9ECED210A8 /* ThreeRingControl.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C848808152A3639833DA919264EC08F5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B035C0FA1C533A8113F7BC791D92F4DD /* Pods-ThreeRingControlTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D035C37D98CDBDF56F70730442A83220 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F0092233951B06F6FE895FB17084ED9 /* Pods-ThreeRingControl-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4CEB2C3643849E2D3FB0D686744EA46F /* Pods-ThreeRingControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 862A8FD1CC71D8D56266B28558D5330B /* Build configuration list for PBXNativeTarget "Pods-ThreeRingControl" */;
+			buildPhases = (
+				4C4B063DE83F682E7D0519D2F6FD53CC /* Sources */,
+				04410D6C2FC8086A3FBC20118CEEB1A6 /* Frameworks */,
+				D035C37D98CDBDF56F70730442A83220 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1982E7D94A371DC83629E5F1B874F72A /* PBXTargetDependency */,
+			);
+			name = "Pods-ThreeRingControl";
+			productName = "Pods-ThreeRingControl";
+			productReference = 13B2E2F990970E9F5D60E626996DDDC1 /* Pods_ThreeRingControl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DEB23278FB765E4707D8BA96A7A25446 /* ThreeRingControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EACC6AAA8FAA055182AF3F5E2EEDB66 /* Build configuration list for PBXNativeTarget "ThreeRingControl" */;
+			buildPhases = (
+				8C0426D88561376E6828BAA596012C9B /* Sources */,
+				42A771BBBAC439357E42460D818F71A7 /* Frameworks */,
+				C02CBFCF280BB7F677B415E7E994A22C /* Headers */,
+				32CE25F2CD12A23A6A2031B04E6913FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThreeRingControl;
+			productName = ThreeRingControl;
+			productReference = F7700CE8BD3EF540132CE501DE31A176 /* ThreeRingControl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FEB15C1D69895DEB28F4C9186817A14E /* Pods-ThreeRingControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66A5BB6AE4444CF0574EE78000BC408E /* Build configuration list for PBXNativeTarget "Pods-ThreeRingControlTests" */;
+			buildPhases = (
+				FD0599BC12521063E8AF74E0CF352BC5 /* Sources */,
+				1B003699EB5474B75B2170E94262A23D /* Frameworks */,
+				C848808152A3639833DA919264EC08F5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ThreeRingControlTests";
+			productName = "Pods-ThreeRingControlTests";
+			productReference = DCE25E002F8E2E2CB6B90B2B4434D7F5 /* Pods_ThreeRingControlTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FC1F9B70A18BF37A0CC9DFD97AE66EF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CEB2C3643849E2D3FB0D686744EA46F /* Pods-ThreeRingControl */,
+				FEB15C1D69895DEB28F4C9186817A14E /* Pods-ThreeRingControlTests */,
+				DEB23278FB765E4707D8BA96A7A25446 /* ThreeRingControl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32CE25F2CD12A23A6A2031B04E6913FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBCC3E02CC85F87EBEA0112647689CC8 /* coin07.mp3 in Resources */,
+				34158B0BEE6225DEB3CFC356CEEA60DC /* winning.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C4B063DE83F682E7D0519D2F6FD53CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ECFB1C2F9CC07870F470B3F3969D7E7 /* Pods-ThreeRingControl-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0426D88561376E6828BAA596012C9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3EBA9ED0B0C959DE1AA6D09F3F9DE6C /* CircularGradient.swift in Sources */,
+				B01896EA22BC30F1CE74E34A59EEDF6B /* Fanfare.swift in Sources */,
+				FC7074F3305E76C7E59FF7DBC9B6C811 /* RingLayer.swift in Sources */,
+				8416380BB9DF3B0FEAA40F9B959D0E70 /* RingTip.swift in Sources */,
+				C84B60D36678DEFCC10DAC2D5229D589 /* ThreeRingControl-dummy.m in Sources */,
+				8BEB8C5D8CD10D1E6F258042EEBAB592 /* ThreeRingView.swift in Sources */,
+				3226303138D66D415DB00A7C38EBE898 /* Utilities.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD0599BC12521063E8AF74E0CF352BC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA7E43A686D286296855CC2087C8E71D /* Pods-ThreeRingControlTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1982E7D94A371DC83629E5F1B874F72A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ThreeRingControl;
+			target = DEB23278FB765E4707D8BA96A7A25446 /* ThreeRingControl */;
+			targetProxy = 787E52675FBB8D1C28D903C470EE4D76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		034014829C1E4434983CF3A690C12017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2F7F395AD9CA16CF10F6A11DC50D47E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BB0A0C244C47E9ED5D36A3DBD08CFBB /* ThreeRingControl.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ThreeRingControl/ThreeRingControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ThreeRingControl/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ThreeRingControl/ThreeRingControl.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ThreeRingControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6D17D402856F852187DDEBE10E95530F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F9912117B8524673F95041CD580C3AD /* Pods-ThreeRingControlTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ThreeRingControlTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ThreeRingControlTests/Pods-ThreeRingControlTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ThreeRingControlTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		744A67E8610F989C973613301CABF844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B122CC4A2F204AB540DD79F0139E0DAD /* Pods-ThreeRingControl.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ThreeRingControl/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ThreeRingControl/Pods-ThreeRingControl.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ThreeRingControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		74F0DC833F1CEFF9B936834D96E64F85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BB0A0C244C47E9ED5D36A3DBD08CFBB /* ThreeRingControl.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ThreeRingControl/ThreeRingControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ThreeRingControl/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ThreeRingControl/ThreeRingControl.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ThreeRingControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C7E474A03CAE21F1CB6046E7344C59BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8BCC22BF7CD561FBDECAD067A6490A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 427C2597240B3B6762ADC9B988485ABF /* Pods-ThreeRingControl.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ThreeRingControl/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ThreeRingControl/Pods-ThreeRingControl.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ThreeRingControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E96D344C8AF7FEF131F19CC342F21E63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 129340C6168C2A22A08082A36F9B6373 /* Pods-ThreeRingControlTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ThreeRingControlTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ThreeRingControlTests/Pods-ThreeRingControlTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ThreeRingControlTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034014829C1E4434983CF3A690C12017 /* Debug */,
+				C7E474A03CAE21F1CB6046E7344C59BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EACC6AAA8FAA055182AF3F5E2EEDB66 /* Build configuration list for PBXNativeTarget "ThreeRingControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74F0DC833F1CEFF9B936834D96E64F85 /* Debug */,
+				2F7F395AD9CA16CF10F6A11DC50D47E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66A5BB6AE4444CF0574EE78000BC408E /* Build configuration list for PBXNativeTarget "Pods-ThreeRingControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E96D344C8AF7FEF131F19CC342F21E63 /* Debug */,
+				6D17D402856F852187DDEBE10E95530F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		862A8FD1CC71D8D56266B28558D5330B /* Build configuration list for PBXNativeTarget "Pods-ThreeRingControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				744A67E8610F989C973613301CABF844 /* Debug */,
+				C8BCC22BF7CD561FBDECAD067A6490A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
